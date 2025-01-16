@@ -81,12 +81,13 @@ A complete application for file storage and management with user authentication 
         ```env
         REACT_APP_API_URL=http://localhost:5000/api
         ```
-5. Start the backend:
+5. Make directory `uploads` in backend folder
+6. Start the backend:
     ```bash
     cd ../backend
     npm start
     ```
-6. Start the frontend:
+7. Start the frontend:
     ```bash
     cd ../frontend
     npm start
