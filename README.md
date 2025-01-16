@@ -12,6 +12,7 @@ A complete application for file storage and management with user authentication 
 4. [Test Users](#test-users)
 5. [API Endpoints](#api-endpoints)
 6. [Database Structure](#database-structure)
+7. [License](#license)
 
 ---
 
@@ -55,7 +56,7 @@ A complete application for file storage and management with user authentication 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo/quick-storage.git
+    git clone https://github.com/sergiusz-x/quick-storage.git
     cd quick-storage
     ```
 2. Install dependencies for the backend:
@@ -77,9 +78,9 @@ A complete application for file storage and management with user authentication 
         DATABASE_URL=../database.db
         ```
     - Example content for `frontend .env`:
-    ```env
-    REACT_APP_API_URL=http://localhost:5000/api
-    ```
+        ```env
+        REACT_APP_API_URL=http://localhost:5000/api
+        ```
 5. Start the backend:
     ```bash
     cd ../backend
